@@ -1,0 +1,39 @@
+.row{
+    padding: 20px;
+    padding-top: 30px;
+    
+    
+}
+
+div{
+    background-color: mediumturquoise;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Estilo de la foto de perfil 
+@media (min-width: 576px){
+    #fotoperfil{
+        position: absolute;
+        width: 15%;
+    }
+}
+*/
+
+
+#nombre{
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+img{
+    box-shadow: -10px 10px 8px black;
+/*  box-shadow: ejeX ejeY difumasion
+    cuanto mas bajo sea el valor de la difumasion, mas solido aparece el sombreado
+    tambien trabaja con numeros negativos que invierten la direccion de los ejes
+*/
+    
+}
