@@ -13,6 +13,8 @@ import { EducacionComponent } from './componentes/educacion/educacion.component'
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { FooterComponent } from './componentes/footer/footer.component';
+import { BotonComponent } from './componentes/boton/boton.component';
+
 
 
 
@@ -28,6 +30,8 @@ import { FooterComponent } from './componentes/footer/footer.component';
     EducacionComponent,
     HabilidadesComponent,
     FooterComponent,
+    BotonComponent,
+    
   ],
   imports: [
     BrowserModule,
