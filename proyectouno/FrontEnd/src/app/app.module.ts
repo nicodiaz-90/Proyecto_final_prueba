@@ -1,5 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { AppRoutingModule } from './app-routing.module';
+import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './componentes/header/header.component';
@@ -14,6 +16,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HabilidadesComponent } from './componentes/habilidades/habilidades.component';
 import { FooterComponent } from './componentes/footer/footer.component';
 import { BotonComponent } from './componentes/boton/boton.component';
+import {HttpClientModule} from '@angular/common/http'
+
 
 
 
@@ -35,8 +39,11 @@ import { BotonComponent } from './componentes/boton/boton.component';
   ],
   imports: [
     BrowserModule,
+    AppRoutingModule,
+    FormsModule,
     /*La linea de abajo permite incluir el circulo de progresion en el proyecto*/
-    NgCircleProgressModule.forRoot({})
+    NgCircleProgressModule.forRoot({}),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
